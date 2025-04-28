@@ -11,6 +11,9 @@ body {
 .card {
     display: flex;
     flex-direction: row;
+    margin: 80px auto;
+    width: 50%;
+    height: auto;
 }
 
 
