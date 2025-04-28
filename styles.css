@@ -28,6 +28,10 @@ body {
     color: hsl(277, 64%, 61%);
 }
 
+.stats-paragraph {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
 .img-card {
     width: 50%;
 }
