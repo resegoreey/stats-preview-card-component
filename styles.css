@@ -11,17 +11,23 @@ body {
 .card {
     display: flex;
     flex-direction: row;
-    margin: 80px auto;
+    margin: 180px auto;
     width: 70%;
+    max-width: 900px;
     height: auto;
-    box-shadow: 1px 5px 6px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
     
 }
 
 .stats-card {
-    width: 50%;
+    flex: 1;
     background-color: hsl(244, 38%, 16%);
     padding: 50px;
+    box-sizing: border-box;
+    
 }
 
 .insight {
@@ -32,8 +38,27 @@ body {
     color: hsla(0, 0%, 100%, 0.6);
 }
 
+.stats-breakdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.stats-breakdown p {
+    margin: 0;
+    padding: 0;
+}
+
+.stats-numbers {
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
 .img-card {
-    width: 50%;
+    flex: 1;
+    box-sizing: border-box;
 }
 
 .img {
