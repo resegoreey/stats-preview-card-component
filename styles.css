@@ -1,89 +1,95 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 15px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(233, 47%, 7%);
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(233, 47%, 7%);
 }
 
 .card {
-    display: flex;
-    flex-direction: row;
-    margin: 160px auto;
-    width: 70%;
-    max-width: 900px;
-    height: auto;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    
+  display: flex;
+  flex-direction: row;
+  margin: 160px auto;
+  width: 70%;
+  max-width: 900px;
+  height: auto;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
 }
 
 .stats-card {
-    flex: 1;
-    background-color: hsl(244, 38%, 16%);
-    padding: 50px;
-    box-sizing: border-box;
-    
+  flex: 1;
+  background-color: hsl(244, 38%, 16%);
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .insight {
-    color: hsl(277, 64%, 61%);
+  color: hsl(277, 64%, 61%);
 }
 
 .stats-paragraph {
-    color: hsla(0, 0%, 100%, 0.6);
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 12px;
-    max-width: 340px;
-    line-height: 1.8;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  max-width: 340px;
+  line-height: 1.8;
 }
 
 .stats-breakdown {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 100%;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-top: 30px;
 }
 
 .stats-breakdown p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .stats-numbers {
-    font-weight: 700;
-    margin-top: 10;
-    margin-bottom: 5px;
-    font-size: 18px;
+  font-weight: 700;
+  margin-top: 10;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 
 .stats-title {
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size: 12px;
-    margin-top: 40px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  margin-top: 40px;
 }
 
 .img-card {
-    flex: 1;
-    box-sizing: border-box;
+  flex: 1;
+  box-sizing: border-box;
 }
 
 .img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 420px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    
   }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+}
