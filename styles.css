@@ -91,5 +91,6 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 90%;
+    height: auto;
   }
 }
