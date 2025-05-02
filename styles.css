@@ -16,7 +16,7 @@ body {
   max-width: 900px;
   height: auto;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
@@ -118,5 +118,6 @@ body {
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+    align-items: center;
   }
 }
