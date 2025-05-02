@@ -36,6 +36,11 @@ body {
 
 .stats-paragraph {
     color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    max-width: 340px;
+    line-height: 1.8;
 }
 
 .stats-breakdown {
@@ -43,6 +48,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     max-width: 100%;
+    margin-top: 30px;
 }
 
 .stats-breakdown p {
@@ -52,9 +58,15 @@ body {
 
 .stats-numbers {
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 10;
     margin-bottom: 5px;
     font-size: 18px;
+}
+
+.stats-title {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
+    margin-top: 40px;
 }
 
 .img-card {
