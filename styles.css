@@ -92,5 +92,6 @@ body {
     flex-direction: column-reverse;
     width: 90%;
     margin: 40px auto;
+    border-radius: 10px;
   }
 }
