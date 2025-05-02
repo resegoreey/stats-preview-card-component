@@ -97,5 +97,6 @@ body {
 
   .stats-card {
     flex-direction: column;
+    gap: 20px;
   }
 }
