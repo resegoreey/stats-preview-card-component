@@ -91,6 +91,6 @@ body {
     display: flex;
     flex-direction: column-reverse;
     width: 90%;
-    height: auto;
+    margin: 40px auto;
   }
 }
