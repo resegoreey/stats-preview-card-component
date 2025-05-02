@@ -59,7 +59,7 @@ body {
   font-weight: 700;
   margin-top: 10;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .stats-title {
@@ -97,8 +97,11 @@ body {
   }
 
   .stats-card {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .img-card {
@@ -119,5 +122,15 @@ body {
     align-items: center;
     row-gap: 20px;
     align-items: center;
+  }
+
+  .stats {
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+
+  .stats-numbers {
+    font-size: 25px;
+    margin: auto;
   }
 }
