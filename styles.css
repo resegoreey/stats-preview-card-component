@@ -89,8 +89,8 @@ body {
 @media (max-width: 420px) {
   .card {
     display: flex;
-    flex-direction: column;
-    max-width: 90%;
+    flex-direction: column-reverse;
+    width: 90%;
     height: auto;
   }
 }
