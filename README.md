@@ -51,6 +51,6 @@ Users should be able to:
 ## Author
 
 - Website - (https://stats-card-component1.netlify.app/)
-- Frontend Mentor - [@](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - @resegoreey(https://www.frontendmentor.io/profile/resegoreey)
 
 
