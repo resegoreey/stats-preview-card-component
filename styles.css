@@ -29,6 +29,14 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
 .insight {
   color: hsl(277, 64%, 61%);
 }
@@ -126,11 +134,28 @@ body {
 
   .stats {
     margin-bottom: 20px;
-    align-items: flex-start;
   }
 
   .stats-numbers {
     font-size: 25px;
     margin: auto;
+  }
+  
+  h1 {
+   
+    display: block;
+  }
+
+  h1::after {
+    content: "Get insights\nthat help your business\ngrow.";
+    white-space: pre-line;
+    display: block;
+    text-align: left;
+    font-size: inherit;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 0;
   }
 }
