@@ -141,21 +141,6 @@ h1 {
     margin: auto;
   }
   
-  h1 {
-   
-    display: block;
-  }
 
-  h1::after {
-    content: "Get insights\nthat help your business\ngrow.";
-    white-space: pre-line;
-    display: block;
-    text-align: left;
-    font-size: inherit;
-    line-height: 1.6;
-  }
-
-  h1 {
-    font-size: 0;
-  }
+  
 }
